@@ -1,0 +1,42 @@
+# ============================================
+# SENSITIVE: Chrome Profile & Session (NEVER COMMIT)
+# ============================================
+chrome_session/
+*/chrome_session/*
+chrome_session/**
+*.session
+cookies/
+*.cookie
+
+# ============================================
+# SENSITIVE: Personal Follower Data & History
+# ============================================
+data/
+*.json
+!package.json
+!tsconfig.json
+*.txt
+!requirements.txt
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+env/
+
+# Logs & Temp files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
